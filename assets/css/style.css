@@ -1,0 +1,125 @@
+/*
+THEME:   Template
+VERSION: 1.0.0
+AUTHOR: 
+GITHUB: 
+WEBSITE: 
+TWITTER: 
+FACEBOOK: 
+*/
+/*  typography Starts Here*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+body {
+  line-height: 1.2;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #ae00ff;
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+.paragraph {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #ae00ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: #ae00ff;
+  line-height: 1.2;
+}
+
+h1,
+.h1 {
+  font-size: 52px;
+}
+
+h2,
+.h2 {
+  font-size: 42px;
+}
+
+h3,
+.h3 {
+  font-size: 32px;
+}
+
+h4,
+.h4 {
+  font-size: 24px;
+}
+
+h5,
+.h5 {
+  font-size: 16px;
+}
+
+h6,
+.h6 {
+  font-size: 14px;
+}
+
+/*  typography Ends Here*/
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+::-moz-selection {
+  background: #e93698;
+  color: #FFFFFF;
+}
+
+::selection {
+  background: #e93698;
+  color: #FFFFFF;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+a:focus,
+button:focus,
+select:focus {
+  outline: 0;
+}
+/*# sourceMappingURL=style.css.map */

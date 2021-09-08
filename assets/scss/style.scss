@@ -1,0 +1,19 @@
+/*
+THEME:   Template
+VERSION: 1.0.0
+AUTHOR: 
+GITHUB: 
+WEBSITE: 
+TWITTER: 
+FACEBOOK: 
+*/
+
+@import 'mixins';
+@import 'variables';
+@import'typography';
+@import'default';
+@import 'common';
+
+// Theme Custom Style
+@import 'theme/components/component';
+@import 'theme/customtheme';
